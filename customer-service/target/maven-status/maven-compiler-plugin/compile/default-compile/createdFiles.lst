@@ -1,0 +1,6 @@
+com\payroll\microservices\customerservice\RabbitMQSender.class
+com\payroll\microservices\customerservice\Customer.class
+com\payroll\microservices\customerservice\CustomerServiceApplication.class
+com\payroll\microservices\customerservice\RabbitMQConfig.class
+com\payroll\microservices\customerservice\CustomerRepository.class
+com\payroll\microservices\customerservice\CustomerController.class

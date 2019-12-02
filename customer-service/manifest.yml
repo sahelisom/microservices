@@ -1,0 +1,10 @@
+applications:
+- name: customer-service-256581
+  path: target/customer-service-256581-0.0.1-SNAPSHOT.jar
+  memory: 1G
+  instances: 1
+  env:
+    SPRING_PROFILES_ACTIVE: prod
+  services:
+    - rabbitmq-server-saheli
+    - service-registry-saheli
