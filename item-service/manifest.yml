@@ -2,8 +2,8 @@ applications:
 - name: item-service-saheli
   path: target/item-service-saheli-0.0.1-SNAPSHOT.jar
   memory: 1G
-  instances: 1
+  instances: 2
   env:
     SPRING_PROFILES_ACTIVE: prod
   services:
-    - service-registry-saheli
+    - service-registry-256581
