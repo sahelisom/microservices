@@ -6,6 +6,6 @@ applications:
     SPRING_PROFILES_ACTIVE: prod
   services:
     - rabbitmq-server-saheli
-    - service-registry-saheli
+    - service-registry-256581
     - config-server-saheli
     - circuit-breaker-saheli
